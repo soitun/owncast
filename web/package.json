@@ -9,14 +9,13 @@
 		"dev": "next dev",
 		"build": "next build",
 		"start": "next start",
-		"lint": "eslint --fix --ext .js,.ts,.tsx types/ pages/ components/ stories/ & npm run css-lint",
-    "css-lint": "prettier --check \"**/*.scss\" & stylelint \"**/*.scss\"",
+		"lint": "eslint --fix --ext .js,.ts,.tsx types/ pages/ components/ stories/ && npm run stylelint",
+    "stylelint": "stylelint **/*.scss",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "build-styles": "cd ./style-definitions && style-dictionary build && ./build.sh && cd -",
     "test": "jest",
-    "format": "prettier --write **/*.{js,ts,jsx,tsx,md}",
-		"format-css": "prettier --write \"**/*.scss\" & stylelint --fix \"**/*.scss\""
+    "format": "prettier --write  **/*.{js,ts,jsx,tsx,css,md,scss}"
 	},
 	"dependencies": {
 		"@ant-design/icons": "4.8.3",

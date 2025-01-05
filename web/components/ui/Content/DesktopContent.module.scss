@@ -1,6 +1,7 @@
-$bottom-margin: 2vw;
+$bottomMargin: 2vw;
 
 .bottomSectionContent {
-  width: calc(100% - (2 * $bottom-margin));
-  margin: 0 $bottom-margin;
+  // background-color: green;
+  width: calc(100% - (2 * $bottomMargin));
+  margin: 0 $bottomMargin 0 $bottomMargin;
 }
