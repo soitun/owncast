@@ -19,7 +19,7 @@
   padding: 0 var(--chat-notification-icon-padding) 0 16px;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (width <= 350px) {
   .icon {
     padding-left: 0;
   }
