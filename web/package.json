@@ -15,7 +15,7 @@
     "build-storybook": "storybook build",
     "build-styles": "cd ./style-definitions && style-dictionary build && ./build.sh && cd -",
     "test": "jest",
-    "format": "prettier --write **/*.{js,ts,jsx,tsx,md} && npm run format-css",
+    "format": "prettier --write **/*.{js,ts,jsx,tsx,md}",
 		"format-css": "prettier --write \"**/*.scss\""
 	},
 	"dependencies": {
